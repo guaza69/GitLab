@@ -4,9 +4,8 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
   const password = document.getElementById("password").value;
 
   if (usuario && password) {
-    alert(`Bienvenido, ${usuario}!`);
-    // Aquí se manejaría el envío real al backend
+    alert(`Bienvenido, ${usuario}`);
   } else {
-    alert("Por favor completa todos los campos.");
+    alert("Por favor, completa todos los campos.");
   }
 });
